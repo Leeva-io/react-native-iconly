@@ -33,7 +33,8 @@
   "scripts": {
     "build": "tsc --jsx react-native",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
-    "lint": "eslint \"src/**/*\""
+    "lint": "eslint \"src/**/*\"",
+    "postinstall": "npm run build"
   },
   "peerDependencies": {
     "react-native-svg": "^15.0.0"
