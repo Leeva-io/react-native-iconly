@@ -2,11 +2,11 @@
   "name": "react-native-iconly",
   "version": "1.0.11",
   "description": "React native component for Iconly icons",
-  "author": "otaviomad",
+  "author": "glognus",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/otaviomad/react-native-iconly"
+    "url": "git+https://github.com/Leeva-io/react-native-iconly"
   },
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
@@ -17,9 +17,9 @@
     "node": ">=10"
   },
   "bugs": {
-    "url": "https://github.com/otaviomad/react-native-iconly/issues"
+    "url": "https://github.com/Leeva-io/react-native-iconly/issues"
   },
-  "homepage": "https://react-iconly.jrgarciadev.com",
+  "homepage": "https://react-iconly.glognus.com",
   "keywords": [
     "react",
     "react-native",
@@ -36,40 +36,26 @@
     "lint": "eslint \"src/**/*\""
   },
   "peerDependencies": {
-    "react": "^16.8.6 || ^17"
+    "react-native-svg": "^15.0.0"
   },
   "devDependencies": {
-    "@types/node": "^14.14.37",
-    "@types/react": "^17.0.3",
-    "@types/react-dom": "^17.0.3",
-    "@typescript-eslint/eslint-plugin": "^4.21.0",
-    "@typescript-eslint/parser": "^4.21.0",
-    "babel-eslint": "^10.0.3",
-    "cross-env": "^7.0.2",
-    "eslint": "^5.16.0",
-    "eslint-config-airbnb": "^18.2.1",
-    "eslint-config-prettier": "^8.1.0",
-    "eslint-config-react-app": "^6.0.0",
-    "eslint-plugin-flowtype": "^5.6.0",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-prettier": "^3.3.1",
-    "eslint-plugin-react": "^7.23.1",
-    "eslint-plugin-react-hooks": "^4.2.0",
-    "eslint-plugin-typescript": "^0.14.0",
-    "eslint-plugin-unused-imports": "^1.1.1",
-    "gh-pages": "^2.2.0",
+    "@types/node": "^20.11.24",
+    "@types/react": "^18.2.62",
+    "@types/react-dom": "^18.2.19",
+    "@typescript-eslint/eslint-plugin": "^7.1.1",
+    "@typescript-eslint/parser": "^7.1.1",
+    "babel-eslint": "^10.1.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.57.0",
+    "gh-pages": "^6.1.1",
     "npm-run-all": "^4.1.5",
-    "prettier": "^2.2.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "^4.0.3",
-    "typescript": "^4.2.3"
+    "prettier": "^3.2.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.3.3",
+    "react-native-svg": "^15.0.0"
   },
   "files": [
     "dist"
-  ],
-  "dependencies": {
-    "react-native-svg": "^12.1.0"
-  }
+  ]
 }
