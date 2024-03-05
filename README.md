@@ -4,10 +4,10 @@
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![npm downloads](https://img.shields.io/npm/dm/react-native-iconly.svg?style=flat-round)](https://www.npmjs.com/package/react-native-iconly)
 
-
 **react-native-iconly** is a fork of [react-iconly](https://www.npmjs.com/package/react-iconly) that is very half-assedly put together and rushed to completion using some very manual scripts. It uses [react-native-svg](https://www.npmjs.com/package/react-native-svg) as a substitute for the original html svg backend. It also uses typescript instead of javascript.
 
 ## READ THIS
+
 This was very quickly put together. Some things may not work. I may update this in the future. Use at your own discretion.
 
 ## Based on Iconly Essential Icons [Iconly v2](https://ui8.net/piqodesign/products/iconly-essential-icons)
@@ -15,6 +15,7 @@ This was very quickly put together. Some things may not work. I may update this 
 🌐 [Website](https://react-native-iconly.jrgarciadev.com/)
 
 ### Sets
+
 - Bold
 - Bulk
 - Light Border
@@ -23,6 +24,7 @@ This was very quickly put together. Some things may not work. I may update this 
 - Curved (New)
 
 ### Installation
+
     yarn add react-native-iconly
 
   or
@@ -63,9 +65,11 @@ export default App;
 ```
 
 Icons can be configured with inLine props:
+
 ```jsx
 <Home set="curved" primaryColor="blueviolet" secondaryColor="blue" stroke="bold" size="xlarge"/>
 ```
+
 You can also include the whole icon pack:
 
 ```jsx
@@ -92,6 +96,7 @@ const App = () => {
 export default App;
 
 ```
+
 ## Props
 
 | Prop | Type | Default | Note |
@@ -109,4 +114,4 @@ export default App;
 
 ## License
 
-MIT [jrgarciadev](https://github.com/jrgarciadev) and [otaviomad](https://github.com/otaviomad)
+MIT [jrgarciadev](https://github.com/jrgarciadev) and [otaviomad](https://github.com/otaviomad) and [Leeva-io](https://github.com/Leeva-io)
